@@ -1,0 +1,11 @@
+name: admin
+parents:
+- g-bukkit_admin
+- g-essentials_admin
+- g-groupmanager_admin
+- g-towny_admin
+- g-vanish_admin
+- moderator
+prefixes:
+- '&c':
+    priority: 50

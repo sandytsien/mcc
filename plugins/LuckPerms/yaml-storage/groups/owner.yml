@@ -1,0 +1,10 @@
+name: owner
+permissions:
+- vanish.*:
+    value: false
+- '*'
+parents:
+- admin
+prefixes:
+- '&4':
+    priority: 50

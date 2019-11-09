@@ -1,0 +1,30 @@
+Settings:
+  LogOffensesInSeparateFile: true
+  InGameOffenseNotifications: true
+  RemoveBooksNotMatchingCharset: true
+  DestroyBadSignsOnChunkLoad: false
+  ValidCharset: US-ASCII
+  PageCountThreshold: 5
+  BookAuthorWhitelist:
+  - dniym
+  AllowStack:
+  - POTION
+  RemovePistonIfHeadIsExploded: true
+  PreventRailDupe: true
+  PreventOverStackedItemInHoppers: true
+  PreventRecipeDupe: true
+  RemoveOverstackedItems: true
+  PreventNestedShulkers: true
+  BlockCMIShulkerStacking: true
+  PreventHoppersToUnloadedChunks: true
+  PreventCactusDupe: true
+  PreventItemFramePistonDupe: true
+  PreventZombieItemPickup: false
+  PreventMinecartGlitch: true
+  RemoveExistingGlitchedMinecarts: false
+  BlockNonPlayersInNetherPortal: true
+  BlockNonPlayersInEndPortal: true
+  NotifyBlockedPortalAttempts: false
+  NetherWhiteList: []
+  EndWhiteList: []
+  BlockVillagerTradeCheesing: true

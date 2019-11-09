@@ -1,0 +1,50 @@
+name: default
+permissions:
+- essentials.spawn:
+    value: true
+    server: t
+- chestcommands.open.*
+- stp.*
+- chestcommands.command.open
+- chestcommands.open
+- chestcommands.open.example.yml
+- crazyauctions.access
+- crazyauctions.bid
+- crazyauctions.bid.10
+- crazyauctions.sell
+- crazyauctions.sell.10
+- crazycrates.access
+- crazycrates.menu
+- deatheffects.
+- deatheffects.clear
+- deatheffects.gui
+- deatheffects.gui2
+- deatheffects.holiday
+- essential.tp
+- essentials.afk
+- essentials.back
+- essentials.balancetop
+- essentials.build
+- essentials.delhome
+- essentials.home
+- essentials.list
+- essentials.nick:
+    value: false
+- essentials.pay
+- essentials.smg
+- essentials.spawn
+- essentials.tpa
+- essentials.tpaccept
+- essentials.tpahere
+- essentials.warp
+- essentials.worlds.
+- icepvp.toggle
+- pw.default
+- sgin.use
+- sign.use
+parents:
+- g-essentials_builder
+- g-towny_builder
+prefixes:
+- '&2':
+    priority: 50

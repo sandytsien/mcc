@@ -1,0 +1,5 @@
+name: g-vanish_admin
+permissions:
+- vanish.silentchests
+- vanish.silentjoin
+- vanish.silentquit

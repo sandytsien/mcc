@@ -1,0 +1,8 @@
+uuid: 0f3041c9-ee4e-33d7-8eb1-23ce36460faa
+name: HTL9257
+primary-group: builder
+parents:
+- builder
+prefixes:
+- '&c※[&6N&9E&4W&8craft&c群组管理员]※&2':
+    priority: 100

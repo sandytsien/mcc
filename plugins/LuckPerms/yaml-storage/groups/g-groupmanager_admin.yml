@@ -1,0 +1,8 @@
+name: g-groupmanager_admin
+permissions:
+- groupmanager.mangcheckp
+- groupmanager.manglistp
+- groupmanager.mansave
+- groupmanager.mantogglevalidate
+- groupmanager.manucheckp
+- groupmanager.manulistp

@@ -1,0 +1,916 @@
+[01:37:21] [Server thread/INFO]: Starting minecraft server version 1.14.4
+[01:37:21] [Server thread/INFO]: Loading properties
+[01:37:22] [Server thread/INFO]: This server is running Paper version git-Paper-135 (MC: 1.14.4) (Implementing API version 1.14.4-R0.1-SNAPSHOT)
+[01:37:22] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:37:22] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:37:22] [Server thread/INFO]: Debug logging is disabled
+[01:37:22] [Server thread/INFO]: Default game type: SURVIVAL
+[01:37:22] [Server thread/INFO]: Generating keypair
+[01:37:23] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:37:23] [Server thread/INFO]: Using epoll channel type
+[01:37:23] [Server thread/ERROR]: Ambiguous plugin name `WorldEdit' for files `plugins/worldedit-bukkit-7.0.0-SNAPSHOT-dist.jar' and `plugins/worldedit-bukkit-7.0.1-SNAPSHOT-dist.jar' in `plugins'
+[01:37:29] [Server thread/WARN]: Plugin LuckPerms v4.2.58 does not specify an api-version.
+[01:37:29] [Server thread/WARN]: Plugin WarnedAutoSave v1.0-SNAPSHOT does not specify an api-version.
+[01:37:29] [Server thread/ERROR]: Could not load 'plugins/worldguard-bukkit-7.0.1-SNAPSHOT-dist.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: org/enginehub/piston/exception/CommandException
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:138) ~[patched_1.14.4.jar:git-Paper-135]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:337) ~[patched_1.14.4.jar:git-Paper-135]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:257) ~[patched_1.14.4.jar:git-Paper-135]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.loadPlugins(CraftServer.java:355) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.init(DedicatedServer.java:218) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:871) ~[patched_1.14.4.jar:git-Paper-135]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+Caused by: java.lang.NoClassDefFoundError: org/enginehub/piston/exception/CommandException
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_232]
+	at java.lang.Class.forName(Class.java:348) ~[?:1.8.0_232]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:63) ~[patched_1.14.4.jar:git-Paper-135]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:134) ~[patched_1.14.4.jar:git-Paper-135]
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: org.enginehub.piston.exception.CommandException
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382) ~[?:1.8.0_232]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:139) ~[patched_1.14.4.jar:git-Paper-135]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:85) ~[patched_1.14.4.jar:git-Paper-135]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_232]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_232]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_232]
+	at java.lang.Class.forName(Class.java:348) ~[?:1.8.0_232]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:63) ~[patched_1.14.4.jar:git-Paper-135]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:134) ~[patched_1.14.4.jar:git-Paper-135]
+	... 6 more
+[01:37:29] [Server thread/WARN]: Plugin ProtocolLib v4.5.0-SNAPSHOT does not specify an api-version.
+[01:37:30] [Server thread/WARN]: Plugin DeluxeTags v1.7.1 does not specify an api-version.
+[01:37:30] [Server thread/WARN]: Plugin RandomPlacer v2.0 does not specify an api-version.
+[01:37:30] [Server thread/WARN]: Plugin LevelChat v2.0.1 does not specify an api-version.
+[01:37:30] [Server thread/WARN]: Plugin AkkariinSign v1.0 does not specify an api-version.
+[01:37:30] [Server thread/WARN]: Plugin EnchantFix v1.2 does not specify an api-version.
+[01:37:30] [Server thread/WARN]: Plugin ColorMOTD v1.5.3 does not specify an api-version.
+[01:37:30] [Server thread/WARN]: Plugin UltimateChat2 v2 does not specify an api-version.
+[01:37:30] [Server thread/WARN]: Plugin ActionHealth v3.3.1 does not specify an api-version.
+[01:37:30] [Server thread/WARN]: Plugin InfoBoardReborn v2.0.6 does not specify an api-version.
+[01:37:31] [Server thread/WARN]: Plugin GreatFireWall v5.0 does not specify an api-version.
+[01:37:31] [Server thread/INFO]: [CoreProtect] Loading CoreProtect v2.16.3
+[01:37:31] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v4.2.58
+[01:37:31] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.0.0-SNAPSHOT;4213-d48702a
+[01:37:31] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@db7d525]
+[01:37:31] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_14_R1 as the Bukkit adapter
+[01:37:32] [Server thread/WARN]: Failed to load the built-in legacy id registry
+java.lang.NoSuchMethodError: net.minecraft.server.v1_14_R1.IBlockState.d()Ljava/util/Collection;
+	at com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_14_R1.getProperties(Spigot_v1_14_R1.java:367) ~[?:?]
+	at com.sk89q.worldedit.bukkit.BukkitBlockRegistry.getProperties(BukkitBlockRegistry.java:52) ~[?:?]
+	at com.sk89q.worldedit.world.block.BlockType.lambda$getPropertyMap$1(BlockType.java:119) ~[?:?]
+	at com.sk89q.worldedit.world.block.BlockType.updateField(BlockType.java:73) ~[?:?]
+	at com.sk89q.worldedit.world.block.BlockType.getPropertyMap(BlockType.java:118) ~[?:?]
+	at com.sk89q.worldedit.extension.factory.parser.DefaultBlockParser.parseProperties(DefaultBlockParser.java:166) ~[?:?]
+	at com.sk89q.worldedit.extension.factory.parser.DefaultBlockParser.parseLogic(DefaultBlockParser.java:282) ~[?:?]
+	at com.sk89q.worldedit.extension.factory.parser.DefaultBlockParser.parseFromInput(DefaultBlockParser.java:84) ~[?:?]
+	at com.sk89q.worldedit.extension.factory.parser.DefaultBlockParser.parseFromInput(DefaultBlockParser.java:57) ~[?:?]
+	at com.sk89q.worldedit.internal.registry.AbstractFactory.parseFromInput(AbstractFactory.java:69) ~[?:?]
+	at com.sk89q.worldedit.world.registry.LegacyMapper.loadFromResource(LegacyMapper.java:93) ~[?:?]
+	at com.sk89q.worldedit.world.registry.LegacyMapper.<init>(LegacyMapper.java:63) ~[?:?]
+	at com.sk89q.worldedit.world.registry.LegacyMapper.getInstance(LegacyMapper.java:156) ~[?:?]
+	at com.sk89q.worldedit.WorldEdit.loadMappings(WorldEdit.java:342) ~[?:?]
+	at com.sk89q.worldedit.bukkit.WorldEditPlugin.onLoad(WorldEditPlugin.java:103) ~[?:?]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.loadPlugins(CraftServer.java:360) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.init(DedicatedServer.java:218) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:871) ~[patched_1.14.4.jar:git-Paper-135]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+[01:37:32] [Server thread/INFO]: [WarnedAutoSave] Loading WarnedAutoSave v1.0-SNAPSHOT
+[01:37:32] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.10.1
+[01:37:32] [Server thread/INFO]: [IllegalStack] Loading IllegalStack v1.7.6
+[01:37:32] [Server thread/INFO]: [ChestSort] Loading ChestSort v4.0
+[01:37:32] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.0.0-SNAPSHOT-b764
+[01:37:32] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.5.0-SNAPSHOT
+[01:37:32] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.14.4) has not yet been tested! Proceed with caution.
+[01:37:33] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v13.7.3
+[01:37:33] [Server thread/INFO]: [DeluxeTags] Loading DeluxeTags v1.7.1
+[01:37:33] [Server thread/INFO]: [RandomPlacer] Loading RandomPlacer v2.0
+[01:37:33] [Server thread/INFO]: [LevelChat] Loading LevelChat v2.0.1
+[01:37:33] [Server thread/INFO]: [AkkariinSign] Loading AkkariinSign v1.0
+[01:37:33] [Server thread/INFO]: [RFChairs] Loading RFChairs v1.5
+[01:37:33] [Server thread/INFO]: [HoloDrops] Loading HoloDrops v1.7.2
+[01:37:33] [Server thread/INFO]: [Vault] Loading Vault v1.7.2-b107
+[01:37:33] [Server thread/INFO]: [EnchantFix] Loading EnchantFix v1.2
+[01:37:33] [Server thread/INFO]: [Essentials] Loading Essentials v2.17.0.5
+[01:37:33] [Server thread/INFO]: [ColorMOTD] Loading ColorMOTD v1.5.3
+[01:37:33] [Server thread/INFO]: [QuickShop] Loading QuickShop vReremake 2.3.0
+[01:37:33] [Server thread/INFO]: [UltimateChat2] Loading UltimateChat2 v2
+[01:37:33] [Server thread/INFO]: [ActionHealth] Loading ActionHealth v3.3.1
+[01:37:33] [Server thread/INFO]: [InfoBoardReborn] Loading InfoBoardReborn v2.0.6
+[01:37:33] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.25-SNAPSHOT (build 1733)
+[01:37:33] [Server thread/INFO]: [EssentialsXMPP] Loading EssentialsXMPP v2.17.0.5
+[01:37:33] [Server thread/INFO]: [GreatFireWall] Loading GreatFireWall v5.0
+[01:37:33] [Server thread/INFO]: [Residence] Loading Residence v4.8.6.6
+[01:37:33] [Server thread/INFO]: [EssentialsProtect] Loading EssentialsProtect v2.17.0.5
+[01:37:33] [Server thread/INFO]: [AdvancedAchievements] Loading AdvancedAchievements v5.11.2
+[01:37:33] [Server thread/INFO]: [EssentialsGeoIP] Loading EssentialsGeoIP v2.17.0.5
+[01:37:33] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat v2.17.0.5
+[01:37:33] [Server thread/INFO]: [EssentialsAntiBuild] Loading EssentialsAntiBuild v2.17.0.5
+[01:37:33] [Server thread/INFO]: [CommandDelay] Loading CommandDelay v2.0.6
+[01:37:33] [Server thread/INFO]: [EssentialsSpawn] Loading EssentialsSpawn v2.17.0.5
+[01:37:33] [Server thread/INFO]: [AuthMe] Loading AuthMe v5.6.0-SNAPSHOT-b2247
+[01:37:33] [Server thread/INFO]: [CitizensCMD] Loading CitizensCMD v2.2
+[01:37:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:37:33] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v4.2.58*
+[01:37:33] [Server thread/INFO]:         __    
+[01:37:33] [Server thread/INFO]:   |    |__)   LuckPerms v4.2.58
+[01:37:33] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[01:37:33] [Server thread/INFO]: 
+[01:37:33] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[01:37:33] [Server thread/INFO]: [LuckPerms] Loading storage provider... [YAML]
+[01:37:34] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[01:37:34] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[01:37:34] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1792ms)
+[01:37:34] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.5.0-SNAPSHOT*
+[01:37:34] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[01:37:35] [Server thread/INFO]: [Vault] Enabling Vault v1.7.2-b107
+[01:37:35] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[01:37:35] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[01:37:35] [Server thread/INFO]: [Vault] Enabled Version 1.7.2-b107
+[01:37:35] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[01:37:35] [Server thread/INFO]: [ColorMOTD] Enabling ColorMOTD v1.5.3*
+[01:37:35] [Server thread/INFO]: [ColorMOTD] ├使用 ProtocolLib 4.5.0-SNAPSHOT 作为前置
+[01:37:35] [Server thread/INFO]: [ColorMOTD] │├正在载入配置文件..
+[01:37:35] [Server thread/INFO]: [ColorMOTD] │├配置文件编码为UTF-8...
+[01:37:35] [Server thread/INFO]: [ColorMOTD] │├正在加载图标...
+[01:37:35] [Server thread/INFO]: [ColorMOTD] ││├成功加载图标"3.png"
+[01:37:35] [Server thread/INFO]: [ColorMOTD] ││├成功加载图标"1.png"
+[01:37:35] [Server thread/INFO]: [ColorMOTD] ││├成功加载维护模式下的图标
+[01:37:35] [Server thread/INFO]: [ColorMOTD] ││├成功加载图标"2.png"
+[01:37:35] [Server thread/INFO]: [ColorMOTD] │├载入成功
+[01:37:35] [Server thread/INFO]: [ColorMOTD] │├软前置加载...
+[01:37:35] [Server thread/INFO]: [ColorMOTD] │├找到Essentials,建立连接...
+[01:37:35] [Server thread/INFO]: [ColorMOTD] ├正在注册MOTD监听器...
+[01:37:35] [Server thread/INFO]: ColorMOTD v1.5.3加载完成,用时366毫秒
+[01:37:35] [Server thread/INFO]: [GreatFireWall] Enabling GreatFireWall v5.0*
+[01:37:35] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:37:35] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:37:35] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:37:35] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:37:35] [Server thread/INFO]: Preparing level "world"
+[01:37:35] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[01:37:36] [Server thread/INFO]: Loaded 6 recipes
+[01:37:37] [Server thread/INFO]: -------- World Settings For [world] --------
+[01:37:37] [Server thread/INFO]: Mob Spawn Range: 8
+[01:37:37] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:37:37] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:37:37] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:37:37] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:37:37] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:37:37] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:37:37] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:37:37] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[01:37:37] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[01:37:37] [Server thread/INFO]: Potato Growth Modifier: 100%
+[01:37:37] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:37:37] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:37:37] [Server thread/INFO]: Vine Growth Modifier: 100%
+[01:37:37] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[01:37:37] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[01:37:37] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[01:37:37] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[01:37:37] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[01:37:37] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[01:37:37] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[01:37:37] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[01:37:37] [Server thread/INFO]: Max TNT Explosions: 100
+[01:37:37] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:37:37] [Server thread/INFO]: View Distance: 6
+[01:37:37] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:37:37] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:37:37] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:37:37] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[01:37:37] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:37:37] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:37:38] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[01:37:38] [Server thread/INFO]: Mob Spawn Range: 8
+[01:37:38] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:37:38] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:37:38] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:37:38] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:37:38] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:37:38] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:37:38] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:37:38] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[01:37:38] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[01:37:38] [Server thread/INFO]: Potato Growth Modifier: 100%
+[01:37:38] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:37:38] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:37:38] [Server thread/INFO]: Vine Growth Modifier: 100%
+[01:37:38] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[01:37:38] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[01:37:38] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[01:37:38] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[01:37:38] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[01:37:38] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[01:37:38] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[01:37:38] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[01:37:38] [Server thread/INFO]: Max TNT Explosions: 100
+[01:37:38] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:37:38] [Server thread/INFO]: View Distance: 6
+[01:37:38] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:37:38] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:37:38] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:37:38] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[01:37:38] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:37:38] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:37:38] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[01:37:38] [Server thread/INFO]: Mob Spawn Range: 8
+[01:37:38] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:37:38] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:37:38] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:37:38] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:37:38] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:37:38] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:37:38] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:37:38] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[01:37:38] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[01:37:38] [Server thread/INFO]: Potato Growth Modifier: 100%
+[01:37:38] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:37:38] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:37:38] [Server thread/INFO]: Vine Growth Modifier: 100%
+[01:37:38] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[01:37:38] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[01:37:38] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[01:37:38] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[01:37:38] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[01:37:38] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[01:37:38] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[01:37:38] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[01:37:38] [Server thread/INFO]: Max TNT Explosions: 100
+[01:37:38] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:37:38] [Server thread/INFO]: View Distance: 6
+[01:37:38] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:37:38] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:37:38] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:37:38] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[01:37:38] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:37:38] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:37:39] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
+[01:37:41] [Server thread/INFO]: Preparing spawn area: 0%
+[01:37:41] [Server thread/INFO]: Preparing spawn area: 0%
+[01:37:41] [Server thread/INFO]: Preparing spawn area: 0%
+[01:37:41] [Server thread/INFO]: Preparing spawn area: 0%
+[01:37:41] [Server thread/INFO]: Preparing spawn area: 0%
+[01:37:46] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[01:37:46] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[01:37:46] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[01:37:46] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[01:37:46] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[01:37:46] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[01:37:46] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[01:37:46] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[01:37:46] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[01:37:46] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[01:37:46] [Server thread/INFO]: Preparing spawn area: 0%
+[01:37:47] [Server thread/INFO]: Loaded 441 spawn chunks for world world
+[01:37:47] [Server thread/INFO]: Time elapsed: 8079 ms
+[01:37:47] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
+[01:37:47] [Server thread/INFO]: Preparing spawn area: 0%
+[01:37:47] [Server thread/INFO]: Preparing spawn area: 0%
+[01:37:48] [Server thread/INFO]: Loaded 441 spawn chunks for world world_nether
+[01:37:48] [Server thread/INFO]: Time elapsed: 816 ms
+[01:37:48] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
+[01:37:48] [Server thread/INFO]: Preparing spawn area: 0%
+[01:37:48] [Server thread/INFO]: Loaded 441 spawn chunks for world world_the_end
+[01:37:48] [Server thread/INFO]: Time elapsed: 296 ms
+[01:37:48] [Server thread/INFO]: [CoreProtect] Enabling CoreProtect v2.16.3
+[01:37:48] [Server thread/INFO]: [CoreProtect] CoreProtect has been successfully enabled!
+[01:37:48] [Server thread/INFO]: [CoreProtect] Using SQLite for data storage.
+[01:37:48] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.0.0-SNAPSHOT;4213-d48702a
+[01:37:48] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[01:37:48] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[01:37:48] [Server thread/INFO]: [WarnedAutoSave] Enabling WarnedAutoSave v1.0-SNAPSHOT*
+[01:37:48] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.10.1
+[01:37:48] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[01:37:48] [Server thread/INFO]: [IllegalStack] Enabling IllegalStack v1.7.6
+[01:37:48] [Server thread/INFO]: [IllegalStack] - The following players may create books that do NOT match the specified charset (change in config!):  dniym
+[01:37:48] [Server thread/INFO]: plugins/IllegalStack
+[01:37:48] [Server thread/INFO]: [Illegal Stack] - MC Version 1.14 detected!
+[01:37:48] [Server thread/INFO]: Blocking 1.14 villager trade cheesing.
+[01:37:48] [Server thread/INFO]: [ChestSort] Enabling ChestSort v4.0
+[01:37:48] [Server thread/WARN]: [ChestSort] ========================================================
+[01:37:48] [Server thread/WARN]: [ChestSort] YOU ARE USING AN OLD CONFIG FILE!
+[01:37:48] [Server thread/WARN]: [ChestSort] This is not a problem, as ChestSort will just use the
+[01:37:48] [Server thread/WARN]: [ChestSort] default settings for unset values. However, if you want
+[01:37:48] [Server thread/WARN]: [ChestSort] to configure the new options, please go to
+[01:37:48] [Server thread/WARN]: [ChestSort] https://www.chestsort.de and replace your config.yml
+[01:37:48] [Server thread/WARN]: [ChestSort] with the new one. You can then insert your old changes
+[01:37:48] [Server thread/WARN]: [ChestSort] into the new file.
+[01:37:48] [Server thread/WARN]: [ChestSort] ========================================================
+[01:37:48] [Server thread/INFO]: [ChestSort] Loaded category file 940-food.txt
+[01:37:48] [Server thread/INFO]: [ChestSort] Loaded category file 980-plants.txt
+[01:37:48] [Server thread/INFO]: [ChestSort] Loaded category file 950-redstone.txt
+[01:37:48] [Server thread/INFO]: [ChestSort] Loaded category file 910-tools.txt
+[01:37:48] [Server thread/INFO]: [ChestSort] Loaded category file 920-combat.txt
+[01:37:48] [Server thread/INFO]: [ChestSort] Loaded category file 960-wood.txt
+[01:37:48] [Server thread/INFO]: [ChestSort] Loaded category file 981-corals.txt
+[01:37:48] [Server thread/INFO]: [ChestSort] Loaded category file 900-valuables.txt
+[01:37:48] [Server thread/INFO]: [ChestSort] Loaded category file 930-brewing.txt
+[01:37:48] [Server thread/INFO]: [ChestSort] Loaded category file 970-stone.txt
+[01:37:48] [Server thread/INFO]: [ChestSort] Current sorting method: {category},{itemsFirst},{name},{color}
+[01:37:48] [Server thread/INFO]: [ChestSort] Sorting enabled by default: false
+[01:37:48] [Server thread/INFO]: [ChestSort] Auto generate category files: true
+[01:37:48] [Server thread/INFO]: [ChestSort] Check for updates: true
+[01:37:48] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.0.0-SNAPSHOT-b764
+[01:37:48] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.0.0-SNAPSHOT-b764" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Rigby, fernferret, lithium3141, main--, dumptruckman].
+[01:37:48] [Server thread/INFO]: [Multiverse-Core] 3 - World(s) loaded.
+[01:37:49] [Server thread/INFO]: [Multiverse-Core] Version 4.0.0-SNAPSHOT-b764 (API v23) Enabled - By Rigby, fernferret, lithium3141, main-- and dumptruckman
+[01:37:49] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v13.7.3
+[01:37:49] [Server thread/INFO]: [SkinsRestorer] Detected Minecraft v1_14_R1, using UniversalSkinFactory.
+[01:37:49] [Server thread/INFO]: [SkinsRestorer] Verbose is missing in config.yml! Using default value.
+[01:37:49] [Server thread/INFO]: [SkinsRestorer] [ACF] Enabled Asynchronous Tab Completion Support!
+[01:37:49] [Server thread/INFO]: [DeluxeTags] Enabling DeluxeTags v1.7.1*
+[01:37:49] [Server thread/INFO]: [DeluxeTags] 1 tags loaded
+[01:37:49] [Server thread/INFO]: [DeluxeTags] Loading DeluxeTags messages.yml
+[01:37:49] [Server thread/INFO]: [DeluxeTags] DeluxeChat will handle fetching placeholders for tags!
+[01:37:49] [Server thread/INFO]: ----------------------------
+[01:37:49] [Server thread/INFO]:      DeluxeTags Updater
+[01:37:49] [Server thread/INFO]:  
+[01:37:49] [Server thread/INFO]: Could not connect to spigotmc.org
+[01:37:49] [Server thread/INFO]: to check for updates! 
+[01:37:49] [Server thread/INFO]:  
+[01:37:49] [Server thread/INFO]: ----------------------------
+[01:37:49] [Server thread/INFO]: ----------------------------
+[01:37:49] [Server thread/INFO]:      DeluxeTags Updater
+[01:37:49] [Server thread/INFO]:  
+[01:37:49] [Server thread/INFO]: You are running 1.7.1
+[01:37:49] [Server thread/INFO]: The latest version
+[01:37:49] [Server thread/INFO]: of DeluxeTags!
+[01:37:49] [Server thread/INFO]:  
+[01:37:49] [Server thread/INFO]: ----------------------------
+[01:37:49] [Server thread/INFO]: [RandomPlacer] Enabling RandomPlacer v2.0*
+[01:37:49] [Server thread/INFO]: [RandomPlacer] Loading RandomPlacer config...
+[01:37:49] [Server thread/INFO]: [LevelChat] Enabling LevelChat v2.0.1*
+[01:37:49] [Server thread/INFO]: [LevelChat]插件已被加载!
+[01:37:49] [Server thread/INFO]: [LevelChat]发现ProtocolLib!
+[01:37:49] [Server thread/INFO]: [AkkariinSign] Enabling AkkariinSign v1.0*
+[01:37:49] [Server thread/INFO]: [AkkariinSign] Sign plugin v1.0 by Akkariin
+[01:37:49] [Server thread/INFO]: [RFChairs] Enabling RFChairs v1.5
+[01:37:49] [Server thread/INFO]: [RFChairs] No fake seats remaining! Proceeding
+[01:37:49] [Server thread/INFO]: [RFChairs] Rifle's Chairs has been enabled!
+[01:37:49] [Server thread/INFO]: [HoloDrops] Enabling HoloDrops v1.7.2
+[01:37:49] [Server thread/INFO]: [EnchantFix] Enabling EnchantFix v1.2*
+[01:37:49] [Server thread/INFO]: [Essentials] Enabling Essentials v2.17.0.5
+[01:37:50] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[01:37:50] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[01:37:50] [Server thread/INFO]: [Essentials] Using 1.8.3+ BlockStateMeta provider as mob spawner provider.
+[01:37:50] [Server thread/INFO]: [Essentials] Using 1.13+ flat spawn egg provider as spawn egg provider.
+[01:37:50] [Server thread/INFO]: [Essentials] Using 1.9+ BasePotionData provider as potion meta provider.
+[01:37:50] [Server thread/INFO]: [Essentials] Loaded 20977 items from items.json.
+[01:37:50] [Server thread/INFO]: [Essentials] Using locale en_US
+[01:37:50] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[01:37:50] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[01:37:50] [Server thread/INFO]: [Vault] [Vault][Economy] Essentials Economy hooked.
+[01:37:50] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[01:37:50] [Server thread/INFO]: [QuickShop] Enabling QuickShop vReremake 2.3.0
+[01:37:50] [Server thread/INFO]: [QuickShop] Quickshop Reremake
+[01:37:50] [Server thread/INFO]: [QuickShop] Developers: BukkitCommonsStudio, Netherfoam, Timtower, KaiNoMood, Ghost_chu, Mgazul, TiaraRinne
+[01:37:50] [Server thread/INFO]: [QuickShop] Original author: Netherfoam, Timtower, KaiNoMood
+[01:37:50] [Server thread/INFO]: [QuickShop] Let's start loading the plugin
+[01:37:50] [Server thread/INFO]: [QuickShop] Running QuickShop-Reremake on Minecraft version v1_14_R1
+[01:37:50] [Server thread/INFO]: [QuickShop] Translator: Ghost_chu
+[01:37:50] [Server thread/INFO]: [QuickShop] Contributors: Timtower, Netherfoam, KaiNoMood and Mgazul
+[01:37:50] [Server thread/INFO]: [QuickShop] Language Zone: English (en_US)
+[01:37:50] [Server thread/INFO]: [QuickShop] bStats module loaded.
+[01:37:50] [Server thread/INFO]: [QuickShop] Complete to load Itemname i18n.
+[01:37:50] [Server thread/INFO]: [QuickShop] Starting loading Enchantment i18n...
+[01:37:50] [Server thread/INFO]: [QuickShop] Complete to load enchname i18n.
+[01:37:50] [Server thread/INFO]: [QuickShop] Starting loading Potion i18n...
+[01:37:50] [Server thread/INFO]: [QuickShop] Complete to load potionname i18n.
+[01:37:50] [Server thread/INFO]: [QuickShop] Loading shops from the database...
+[01:37:50] [Server thread/INFO]: [QuickShop] Used 0ms to fetch all shops from the database.
+[01:37:50] [Server thread/INFO]: [QuickShop] Successfully loaded 0 shops! (Used 0ms, Avg 0ms per shop)
+[01:37:50] [Server thread/INFO]: [QuickShop] 0 shops will load after chunk have loaded, 0 shops will load after the world has loaded.
+[01:37:50] [Server thread/INFO]: [QuickShop] Registering Listeners...
+[01:37:50] [Server thread/INFO]: [QuickShop] Registering DisplayCheck task....
+[01:37:50] [Server thread/INFO]: [QuickShop] Cleaning MsgUtils...
+[01:37:50] [Server thread/INFO]: [QuickShop] Cleaning purchase messages from the database that are over a week old...
+[01:37:50] [Server thread/INFO]: [QuickShop] Registering UpdateWatcher...
+[01:37:50] [Server thread/INFO]: [QuickShop] Registering BStats Mertics...
+[01:37:50] [Server thread/INFO]: [QuickShop] Posting stats data...
+[01:37:50] [Server thread/INFO]: [QuickShop] Metrics submitted.
+[01:37:50] [Server thread/INFO]: [QuickShop] QuickShop Loaded! 284 ms.
+[01:37:50] [Server thread/INFO]: [UltimateChat2] Enabling UltimateChat2 v2*
+[01:37:50] [Thread-13/INFO]: [QuickShop] Sending stats data...
+[01:37:51] [Server thread/INFO]: ------------------------
+[01:37:51] [Server thread/INFO]: UltimateChat is outdated!
+[01:37:51] [Server thread/INFO]: Newest version: 2.4.0
+[01:37:51] [Server thread/INFO]: Your version: 2
+[01:37:51] [Server thread/INFO]: Please Update Here: https://www.spigotmc.org/resources/43489
+[01:37:51] [Server thread/INFO]: ------------------------
+[01:37:51] [Server thread/INFO]: [ActionHealth] Enabling ActionHealth v3.3.1*
+[01:37:51] [Server thread/INFO]: [InfoBoardReborn] Enabling InfoBoardReborn v2.0.6*
+[01:37:51] [Server thread/INFO]: [InfoBoardReborn] InfoBoardReborn has been enabled (V.2.0.6)
+[01:37:51] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.25-SNAPSHOT (build 1733)
+[01:37:52] [Server thread/INFO]: [EssentialsXMPP] Enabling EssentialsXMPP v2.17.0.5
+[01:37:52] [Server thread/WARN]: [EssentialsXMPP] config broken for xmpp
+[01:37:52] [Server thread/INFO]: [Residence] Enabling Residence v4.8.6.6
+[01:37:54] [Server thread/INFO]: [Residence] Can't find world with (ZY) name
+[01:37:54] [Server thread/INFO]: [Residence] Can't find world with (barrier) name
+[01:37:54] [Server thread/INFO]: [Residence] Found Vault using permissions plugin:LuckPerms
+[01:37:55] [Server thread/INFO]: [Residence] Scanning for economy systems...
+[01:37:55] [Server thread/INFO]: [Residence] Found Vault using economy system: Essentials Economy
+[01:37:55] [Server thread/INFO]: [Residence] Loading save data for world world...
+[01:37:55] [Server thread/INFO]: [Residence] Loaded world data. (1 ms)
+[01:37:55] [Server thread/INFO]: [Residence] Loading save data for world world_nether...
+[01:37:55] [Server thread/INFO]: [Residence] Loaded world_nether data. (0 ms)
+[01:37:55] [Server thread/INFO]: [Residence] Loading save data for world world_the_end...
+[01:37:55] [Server thread/INFO]: [Residence] Loaded world_the_end data. (0 ms)
+[01:37:55] [Server thread/INFO]: [Residence] Loading world data into memory...
+[01:37:55] [Server thread/INFO]: [Residence] Loaded world data into memory. (0 ms)
+[01:37:55] [Server thread/INFO]: [Residence] Loading world_nether data into memory...
+[01:37:55] [Server thread/INFO]: [Residence] Loaded world_nether data into memory. (0 ms)
+[01:37:55] [Server thread/INFO]: [Residence] Loading world_the_end data into memory...
+[01:37:55] [Server thread/INFO]: [Residence] Loaded world_the_end data into memory. (0 ms)
+[01:37:55] [Server thread/INFO]: [Residence] Found WorldEdit 7.0.0-SNAPSHOT;4213-d48702a
+[01:37:55] [Server thread/INFO]: [Residence] PlaceholderAPI hooked.
+[01:37:55] [Server thread/INFO]: [Residence] PlaceholderAPI was found - Enabling capabilities.
+[01:37:55] [Server thread/INFO]: [Residence] Enabled! Version 4.8.6.6 by Zrips
+[01:37:55] [Server thread/INFO]: [EssentialsProtect] Enabling EssentialsProtect v2.17.0.5
+[01:37:55] [Server thread/INFO]: [EssentialsProtect] Continuing to enable Protect.
+[01:37:55] [Server thread/INFO]: [AdvancedAchievements] Enabling AdvancedAchievements v5.11.2
+[01:37:55] [Server thread/INFO]: [AdvancedAchievements] Loading and backing up configuration files...
+[01:37:55] [Server thread/WARN]: [AdvancedAchievements] Overriding configuration: disabling PetMasterGive and PetMasterReceive categories.
+[01:37:55] [Server thread/WARN]: [AdvancedAchievements] Ensure you have placed Pet Master with a minimum version of 1.4 in your plugins folder or add PetMasterGive and PetMasterReceive to the DisabledCategories list in config.yml.
+[01:37:55] [Server thread/INFO]: [AdvancedAchievements] Loaded 52 achievements in 45 categories.
+[01:37:55] [Server thread/INFO]: [AdvancedAchievements] 2 disabled categories: [PetMasterGive, PetMasterReceive]
+[01:37:55] [Server thread/INFO]: [AdvancedAchievements] Registering event listeners...
+[01:37:55] [Server thread/INFO]: [AdvancedAchievements] Initialising database...
+[01:37:55] [Server thread/INFO]: [AdvancedAchievements] Setting up command executor and custom tab completers...
+[01:37:55] [Server thread/INFO]: [AdvancedAchievements] Launching scheduled tasks...
+[01:37:55] [Server thread/INFO]: [AdvancedAchievements] Registering permissions...
+[01:37:55] [Thread-14/INFO]: [AdvancedAchievements] Checking for plugin update...
+[01:37:55] [Server thread/INFO]: [AdvancedAchievements] Plugin has finished loading and is ready to run! Took 368ms.
+[01:37:55] [Server thread/INFO]: [EssentialsGeoIP] Enabling EssentialsGeoIP v2.17.0.5
+[01:37:56] [Server thread/INFO]: [EssentialsGeoIP] This product includes GeoLite2 data created by MaxMind, available from http://www.maxmind.com/.
+[01:37:56] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.17.0.5
+[01:37:56] [Server thread/INFO]: [EssentialsAntiBuild] Enabling EssentialsAntiBuild v2.17.0.5
+[01:37:56] [Server thread/INFO]: [CommandDelay] Enabling CommandDelay v2.0.6
+[01:37:56] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.17.0.5
+[01:37:56] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-SNAPSHOT-b2247
+[01:37:56] [Thread-14/WARN]: [AdvancedAchievements] Update available: v5.13.1! Download at spigotmc.org/resources/advanced-achievements.6239
+[01:37:56] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[01:37:56] [Server thread/INFO]: [AuthMe] Hooked into LuckPerms!
+[01:37:56] [Server thread/INFO]: [AuthMe] [LICENSE] This product includes GeoLite2 data created by MaxMind, available at https://www.maxmind.com
+[01:37:56] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
+[01:37:56] [Server thread/INFO]: [AuthMe] Hooked successfully into Multiverse-Core
+[01:37:56] [Server thread/INFO]: [AuthMe] Essentials spawn file not found: '/home/mc/mc-14/1.14.X/14/plugins/Essentials/spawn.yml'
+[01:37:56] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-SNAPSHOT build n.2247 correctly enabled!
+[01:37:56] [Server thread/INFO]: [CitizensCMD] Enabling CitizensCMD v2.2
+[01:37:56] [Server thread/INFO]: [CitizensCMD] CitizensCMD 2.2 By Mateus Moreira @LichtHund
+[01:37:56] [Server thread/INFO]: [CitizensCMD] Using English messages!
+[01:37:56] [Server thread/INFO]: [CitizensCMD] Using PlaceholderAPI!
+[01:37:56] [Server thread/INFO]: [CitizensCMD] Using Vault!
+[01:37:57] [Server thread/INFO]: [CitizensCMD] A new version of CitizensCMD is now available:
+[01:37:57] [Server thread/INFO]: [CitizensCMD] https://www.spigotmc.org/resources/30224
+[01:37:58] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[01:37:58] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: vault
+[01:37:58] [Server thread/WARN]: [PlaceholderAPI] File: example.js for javascript placeholder: example is empty
+[01:37:58] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: javascript
+[01:37:58] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player
+[01:37:58] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: multiverse
+[01:37:58] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: server
+[01:37:58] [Server thread/INFO]: Done (22.702s)! For help, type "help"
+[01:37:58] [Server thread/INFO]: Timings Reset
+[01:37:58] [Server thread/INFO]: [CoreProtect] WorldEdit logging successfully initialized.
+[01:37:58] [Server thread/INFO]: [ChestSort] Checking for available updates...
+[01:37:58] [Craft Scheduler Thread - 16/INFO]: [Vault] Checking for Updates ... 
+[01:37:58] [Craft Scheduler Thread - 9/INFO]: [SkinsRestorer] ----------------------------------------------
+[01:37:58] [Craft Scheduler Thread - 9/INFO]: [SkinsRestorer]     +===============+
+[01:37:58] [Craft Scheduler Thread - 9/INFO]: [SkinsRestorer]     | SkinsRestorer |
+[01:37:58] [Craft Scheduler Thread - 9/INFO]: [SkinsRestorer]     +===============+
+[01:37:58] [Craft Scheduler Thread - 9/INFO]: [SkinsRestorer] ----------------------------------------------
+[01:37:58] [Craft Scheduler Thread - 9/INFO]: [SkinsRestorer]     Current version: 13.7.3
+[01:37:58] [Craft Scheduler Thread - 9/INFO]: [SkinsRestorer]     This is the latest version!
+[01:37:58] [Craft Scheduler Thread - 9/INFO]: [SkinsRestorer] ----------------------------------------------
+[01:37:59] [Craft Scheduler Thread - 12/INFO]: *********************** Residence **************************
+[01:37:59] [Craft Scheduler Thread - 12/INFO]: * 4.8.7.4 is now available! Your version: 4.8.6.6
+[01:37:59] [Craft Scheduler Thread - 12/INFO]: * https://www.spigotmc.org/resources/residence.11480/
+[01:37:59] [Craft Scheduler Thread - 12/INFO]: ************************************************************
+[01:37:59] [Craft Scheduler Thread - 10/INFO]: [QuickShop] A new version of QuickShop has been released!
+[01:37:59] [Craft Scheduler Thread - 10/INFO]: [QuickShop] Update here: https://www.spigotmc.org/resources/62575/
+[01:37:59] [Craft Scheduler Thread - 16/INFO]: [Vault] No new version available
+[01:37:59] [Thread-17/INFO]: --------------------
+[01:37:59] [Thread-17/INFO]: [CoreProtect] Version 2.17.5 is now available.
+[01:37:59] [Thread-17/INFO]: [CoreProtect] Download: www.coreprotect.net/download/
+[01:37:59] [Thread-17/INFO]: --------------------
+[01:37:59] [Thread-17/INFO]: [Sponsor] Unlimited Minecraft Hosting: hosthorde.com
+[01:37:59] [Thread-17/INFO]: --------------------
+[01:38:00] [Server thread/WARN]: [ChestSort] ========================================================
+[01:38:00] [Server thread/WARN]: [ChestSort] There is a new version of ChestSort available!
+[01:38:00] [Server thread/WARN]: [ChestSort] Latest : 7.1
+[01:38:00] [Server thread/WARN]: [ChestSort] Current: 4.0
+[01:38:00] [Server thread/WARN]: [ChestSort] Please update to the newest version. Download:
+[01:38:00] [Server thread/WARN]: [ChestSort] https://www.chestsort.de
+[01:38:00] [Server thread/WARN]: [ChestSort] ========================================================
+[01:38:00] [Server thread/INFO]: [InfoBoardReborn] Checking for updates...
+[01:38:00] [Craft Scheduler Thread - 7/INFO]: [PlaceholderAPI] 162 placeholder expansions are available on the cloud.
+[01:38:00] [Craft Scheduler Thread - 7/INFO]: [PlaceholderAPI] 3 installed expansions have updates available.
+[01:38:00] [Server thread/INFO]: [InfoBoardReborn] You are running the most recent version!
+[01:38:00] [Server thread/INFO]: [QuickShop] Using economy system: Essentials Economy
+[01:38:00] [Server thread/INFO]: [Citizens] Loaded 0 NPCs.
+[01:38:00] [Server thread/INFO]: [PlaceholderAPI] An update for PlaceholderAPI (v2.10.4) is available at:
+[01:38:00] [Server thread/INFO]: [PlaceholderAPI] https://www.spigotmc.org/resources/placeholderapi.6245/
+[01:38:01] [Craft Scheduler Thread - 16/WARN]: [EnchantFix] Plugin EnchantFix v1.2 generated an exception while executing task 31
+java.lang.NullPointerException: null
+	at me.zhanshi123.enchantfix.Main$2.run(Main.java:71) ~[?:?]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.14.4.jar:git-Paper-135]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54) ~[patched_1.14.4.jar:git-Paper-135]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[patched_1.14.4.jar:git-Paper-135]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_232]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_232]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+[01:38:01] [Server thread/INFO]: EnchantFix >>> 无法获取更新,原因: null
+[01:38:01] [Server thread/INFO]: EnchantFix >>> Unable to fetch up updates , reason: null
+[01:39:14] [User Authenticator #1/INFO]: UUID of player mcsandy is 81928e69-e362-3a96-9670-07b36403456a
+[01:39:16] [Server thread/INFO]: mcsandy[/124.160.215.234:31979] logged in with entity id 193 at ([world]-364.24121292964577, 64.0, -10.023995417199359)
+[01:39:16] [Server thread/WARN]: [Essentials] Task #80 for Essentials v2.17.0.5 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:146) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:113) ~[?:?]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.14.4.jar:git-Paper-135]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:452) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1144) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:420) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:1076) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:920) ~[patched_1.14.4.jar:git-Paper-135]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+[01:39:16] [Server thread/INFO]: 欢迎 mcsandy 来到幻想乡!
+[01:39:25] [Craft Scheduler Thread - 19/INFO]: [AuthMe] mcsandy logged in!
+[01:42:20] [Server thread/INFO]: [AdvancedAchievements] Player mcsandy received the achievement: itempickups_40 (Environmentalist)
+[01:43:14] [Server thread/INFO]: mcsandy lost connection: Timed out
+[01:43:14] [Server thread/INFO]: mcsandy 离开了幻想乡!
+[01:43:14] [Server thread/WARN]: [Essentials] Task #663 for Essentials v2.17.0.5 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:142) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:113) ~[?:?]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.14.4.jar:git-Paper-135]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:452) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1144) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:420) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:1076) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:920) ~[patched_1.14.4.jar:git-Paper-135]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+[01:45:35] [User Authenticator #2/INFO]: UUID of player mcsandy is 81928e69-e362-3a96-9670-07b36403456a
+[01:45:36] [Server thread/INFO]: mcsandy[/124.160.215.234:31983] logged in with entity id 327 at ([world]-370.0791768539722, 64.0, 0.3803138632092541)
+[01:45:36] [Server thread/WARN]: [Essentials] Task #786 for Essentials v2.17.0.5 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:146) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:113) ~[?:?]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.14.4.jar:git-Paper-135]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:452) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1144) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:420) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:1076) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:920) ~[patched_1.14.4.jar:git-Paper-135]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+[01:45:36] [Server thread/INFO]: 欢迎 mcsandy 来到幻想乡!
+[01:45:59] [Craft Scheduler Thread - 33/INFO]: [AuthMe] mcsandy logged in!
+[01:47:58] [Server thread/WARN]: A manual (plugin-induced) save has been detected while server is configured to auto-save. This may affect performance.
+[01:48:10] [Server thread/INFO]: [AdvancedAchievements] Player mcsandy received the achievement: eatenitems_1 (First Snack)
+[02:18:02] [Server thread/INFO]: CONSOLE issued server command: /give mcsandy dispenser 10
+[02:18:02] [Server thread/INFO]: Giving 10 of dispenser to mcsandy.
+[02:18:02] [Server thread/INFO]: CONSOLE issued server command: /give mcsandy lever 5
+[02:18:02] [Server thread/INFO]: Giving 5 of lever to mcsandy.
+[02:18:02] [Server thread/INFO]: [AdvancedAchievements] Player mcsandy received the achievement: break_1_stone (Cobble Gobble!)
+[02:22:36] [Server thread/INFO]: [AdvancedAchievements] Player mcsandy received the achievement: deaths_1 (Rest in Peace)
+[02:22:37] [Server thread/INFO]: mcsandy went up in flames
+[02:26:28] [Server thread/INFO]: [AdvancedAchievements] Player mcsandy received the achievement: playedtime_1 (First Hour)
+[02:27:04] [Server thread/INFO]: [AdvancedAchievements] Player mcsandy received the achievement: itembreaks_1 (Clumsy Guy)
+[02:31:46] [Server thread/INFO]: mcsandy lost connection: Disconnected
+[02:31:46] [Server thread/INFO]: mcsandy 离开了幻想乡!
+[02:31:46] [Server thread/WARN]: [Essentials] Task #2424 for Essentials v2.17.0.5 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:142) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:113) ~[?:?]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.14.4.jar:git-Paper-135]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:452) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1144) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:420) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:1076) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:920) ~[patched_1.14.4.jar:git-Paper-135]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+[02:37:58] [Server thread/INFO]: [InfoBoardReborn] Checking for updates...
+[02:37:59] [Craft Scheduler Thread - 141/INFO]: [QuickShop] A new version of QuickShop has been released!
+[02:37:59] [Craft Scheduler Thread - 141/INFO]: [QuickShop] Update here: https://www.spigotmc.org/resources/62575/
+[02:37:59] [Server thread/INFO]: [InfoBoardReborn] You are running the most recent version!
+[02:50:23] [User Authenticator #3/INFO]: UUID of player mcsandy is 81928e69-e362-3a96-9670-07b36403456a
+[02:50:23] [Server thread/INFO]: mcsandy[/124.160.215.234:31986] logged in with entity id 1371 at ([world]-370.68560544739694, 64.0, -5.335321700516571)
+[02:50:23] [Server thread/WARN]: [Essentials] Task #2567 for Essentials v2.17.0.5 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:146) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:113) ~[?:?]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.14.4.jar:git-Paper-135]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:452) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1144) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:420) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:1076) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:920) ~[patched_1.14.4.jar:git-Paper-135]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+[02:50:23] [Server thread/WARN]: [Essentials] Permissions lag notice with (GenericVaultHandler). Response took 25.169016ms. Summary: Getting prefix for mcsandy
+[02:50:23] [Server thread/INFO]: 欢迎 mcsandy 来到幻想乡!
+[02:50:35] [Craft Scheduler Thread - 168/INFO]: [AuthMe] mcsandy logged in!
+[03:00:55] [User Authenticator #4/INFO]: UUID of player mcsandy01 is 09ee5e14-ba82-3c55-96d6-60695ac5b01f
+[03:00:56] [Server thread/INFO]: mcsandy01[/124.160.215.234:31988] logged in with entity id 1598 at ([world]-223.5, 63.0, 96.5)
+[03:00:56] [Server thread/WARN]: [Essentials] Task #2841 for Essentials v2.17.0.5 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:150) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:113) ~[?:?]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.14.4.jar:git-Paper-135]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:452) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1144) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:420) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:1076) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:920) ~[patched_1.14.4.jar:git-Paper-135]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+[03:00:56] [pool-15-thread-1/INFO]: [Essentials] Creating empty config: /home/mc/mc-14/1.14.X/14/plugins/Essentials/userdata/09ee5e14-ba82-3c55-96d6-60695ac5b01f.yml
+[03:00:56] [Server thread/INFO]: 欢迎 mcsandy01 来到幻想乡!
+[03:01:00] [Server thread/INFO]: [AdvancedAchievements] Player mcsandy01 received the achievement: connect_1 (Good Choice)
+[03:01:43] [Server thread/INFO]: [AuthMe] mcsandy01 registered 124.160.215.234
+[03:01:43] [Craft Scheduler Thread - 194/INFO]: [AuthMe] The user mcsandy01 has 2 accounts:
+[03:01:43] [Craft Scheduler Thread - 194/INFO]: [AuthMe] mcsandy, mcsandy01.
+[03:01:43] [Craft Scheduler Thread - 194/INFO]: [AuthMe] mcsandy01 logged in!
+[03:04:44] [Server thread/INFO]: mcsandy01 lost connection: Disconnected
+[03:04:44] [Server thread/INFO]: mcsandy01 离开了幻想乡!
+[03:04:44] [Server thread/WARN]: [Essentials] Task #2892 for Essentials v2.17.0.5 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:146) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:113) ~[?:?]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.14.4.jar:git-Paper-135]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:452) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1144) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:420) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:1076) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:920) ~[patched_1.14.4.jar:git-Paper-135]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+[03:04:49] [Server thread/INFO]: mcsandy lost connection: Disconnected
+[03:04:49] [Server thread/INFO]: mcsandy 离开了幻想乡!
+[03:04:49] [Server thread/WARN]: [Essentials] Task #2897 for Essentials v2.17.0.5 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:142) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:113) ~[?:?]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.14.4.jar:git-Paper-135]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:452) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1144) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:420) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:1076) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:920) ~[patched_1.14.4.jar:git-Paper-135]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+[03:37:58] [Server thread/INFO]: [InfoBoardReborn] Checking for updates...
+[03:37:59] [Craft Scheduler Thread - 266/INFO]: [QuickShop] A new version of QuickShop has been released!
+[03:37:59] [Craft Scheduler Thread - 266/INFO]: [QuickShop] Update here: https://www.spigotmc.org/resources/62575/
+[03:37:59] [Server thread/INFO]: [InfoBoardReborn] You are running the most recent version!
+[04:37:58] [Server thread/INFO]: [InfoBoardReborn] Checking for updates...
+[04:37:59] [Server thread/INFO]: [InfoBoardReborn] You are running the most recent version!
+[04:37:59] [Craft Scheduler Thread - 394/INFO]: [QuickShop] A new version of QuickShop has been released!
+[04:37:59] [Craft Scheduler Thread - 394/INFO]: [QuickShop] Update here: https://www.spigotmc.org/resources/62575/
+[05:37:58] [Server thread/INFO]: [InfoBoardReborn] Checking for updates...
+[05:37:59] [Craft Scheduler Thread - 526/INFO]: [QuickShop] A new version of QuickShop has been released!
+[05:37:59] [Craft Scheduler Thread - 526/INFO]: [QuickShop] Update here: https://www.spigotmc.org/resources/62575/
+[05:37:59] [Server thread/INFO]: [InfoBoardReborn] You are running the most recent version!
+[06:37:58] [Server thread/INFO]: [InfoBoardReborn] Checking for updates...
+[06:37:58] [Server thread/INFO]: [InfoBoardReborn] You are running the most recent version!
+[06:37:59] [Craft Scheduler Thread - 658/INFO]: [QuickShop] A new version of QuickShop has been released!
+[06:37:59] [Craft Scheduler Thread - 658/INFO]: [QuickShop] Update here: https://www.spigotmc.org/resources/62575/
+[07:37:58] [Server thread/INFO]: [InfoBoardReborn] Checking for updates...
+[07:37:58] [Craft Scheduler Thread - 798/INFO]: [Vault] Checking for Updates ... 
+[07:37:58] [Craft Scheduler Thread - 792/INFO]: [QuickShop] A new version of QuickShop has been released!
+[07:37:58] [Craft Scheduler Thread - 792/INFO]: [QuickShop] Update here: https://www.spigotmc.org/resources/62575/
+[07:37:59] [Server thread/INFO]: [InfoBoardReborn] You are running the most recent version!
+[07:38:00] [Craft Scheduler Thread - 798/INFO]: [Vault] No new version available
+[08:37:58] [Server thread/INFO]: [InfoBoardReborn] Checking for updates...
+[08:37:59] [Server thread/INFO]: [InfoBoardReborn] You are running the most recent version!
+[08:37:59] [Craft Scheduler Thread - 920/INFO]: [QuickShop] A new version of QuickShop has been released!
+[08:37:59] [Craft Scheduler Thread - 920/INFO]: [QuickShop] Update here: https://www.spigotmc.org/resources/62575/
+[08:55:03] [User Authenticator #5/INFO]: UUID of player mcsandy is 81928e69-e362-3a96-9670-07b36403456a
+[08:55:04] [Server thread/INFO]: mcsandy[/124.160.215.234:32975] logged in with entity id 1767 at ([world]-362.7811279257273, 64.0, -6.411344305104183)
+[08:55:04] [Server thread/WARN]: [Essentials] Task #3103 for Essentials v2.17.0.5 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:146) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:113) ~[?:?]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.14.4.jar:git-Paper-135]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:452) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1144) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:420) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:1076) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:920) ~[patched_1.14.4.jar:git-Paper-135]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+[08:55:04] [Server thread/INFO]: 欢迎 mcsandy 来到幻想乡!
+[08:59:31] [Server thread/INFO]: mcsandy lost connection: Timed out
+[08:59:31] [Server thread/INFO]: mcsandy 离开了幻想乡!
+[08:59:31] [Server thread/WARN]: [Essentials] Task #3221 for Essentials v2.17.0.5 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:142) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:113) ~[?:?]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.14.4.jar:git-Paper-135]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:452) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1144) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:420) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:1076) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:920) ~[patched_1.14.4.jar:git-Paper-135]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+[09:00:32] [User Authenticator #6/INFO]: UUID of player mcsandy01 is 09ee5e14-ba82-3c55-96d6-60695ac5b01f
+[09:00:33] [Server thread/INFO]: mcsandy01[/124.160.215.234:32980] logged in with entity id 1864 at ([world]-365.3104599385725, 64.0, -5.5957421335654125)
+[09:00:33] [Server thread/WARN]: [Essentials] Task #3339 for Essentials v2.17.0.5 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:146) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:113) ~[?:?]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.14.4.jar:git-Paper-135]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:452) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1144) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:420) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:1076) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:920) ~[patched_1.14.4.jar:git-Paper-135]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+[09:00:33] [Server thread/INFO]: 欢迎 mcsandy01 来到幻想乡!
+[09:01:02] [Server thread/INFO]: mcsandy01 lost connection: Disconnected
+[09:01:02] [Server thread/INFO]: mcsandy01 离开了幻想乡!
+[09:01:02] [Server thread/WARN]: [Essentials] Task #3455 for Essentials v2.17.0.5 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:142) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:113) ~[?:?]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.14.4.jar:git-Paper-135]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:452) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1144) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:420) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:1076) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:920) ~[patched_1.14.4.jar:git-Paper-135]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+[09:01:41] [User Authenticator #7/INFO]: UUID of player mcsandy is 81928e69-e362-3a96-9670-07b36403456a
+[09:01:42] [Server thread/INFO]: mcsandy[/124.160.215.234:32983] logged in with entity id 1906 at ([world]-362.7811279257273, 64.0, -6.411344305104183)
+[09:01:42] [Server thread/WARN]: [Essentials] Task #3571 for Essentials v2.17.0.5 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:146) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:113) ~[?:?]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.14.4.jar:git-Paper-135]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:452) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1144) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:420) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:1076) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:920) ~[patched_1.14.4.jar:git-Paper-135]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+[09:01:42] [Server thread/INFO]: 欢迎 mcsandy 来到幻想乡!
+[09:02:02] [Server thread/INFO]: mcsandy lost connection: Disconnected
+[09:02:02] [Server thread/INFO]: mcsandy 离开了幻想乡!
+[09:02:02] [Server thread/WARN]: [Essentials] Task #3686 for Essentials v2.17.0.5 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:142) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:113) ~[?:?]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.14.4.jar:git-Paper-135]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:452) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1144) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:420) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:1076) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:920) ~[patched_1.14.4.jar:git-Paper-135]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+[09:02:44] [User Authenticator #8/INFO]: UUID of player mcsandy is 81928e69-e362-3a96-9670-07b36403456a
+[09:02:44] [Server thread/INFO]: mcsandy[/124.160.215.234:33949] logged in with entity id 1914 at ([world]-362.7811279257273, 64.0, -6.411344305104183)
+[09:02:45] [Server thread/WARN]: [Essentials] Task #3803 for Essentials v2.17.0.5 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:146) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:113) ~[?:?]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.14.4.jar:git-Paper-135]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:452) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1144) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:420) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:1076) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:920) ~[patched_1.14.4.jar:git-Paper-135]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+[09:02:45] [Server thread/INFO]: 欢迎 mcsandy 来到幻想乡!
+[09:03:01] [Craft Scheduler Thread - 975/INFO]: [AuthMe] The user mcsandy has 2 accounts:
+[09:03:01] [Craft Scheduler Thread - 975/INFO]: [AuthMe] mcsandy, mcsandy01.
+[09:03:01] [Craft Scheduler Thread - 975/INFO]: [AuthMe] mcsandy logged in!
+[09:08:53] [Server thread/INFO]: [AdvancedAchievements] Player mcsandy received the achievement: distancefoot_1000 (Big Walker)
+[09:27:07] [Server thread/WARN]: mcsandy moved wrongly!
+[09:27:19] [Server thread/WARN]: mcsandy moved wrongly!
+[09:28:20] [Server thread/WARN]: mcsandy moved wrongly!
+[09:34:17] [Server thread/INFO]: [AdvancedAchievements] Player mcsandy received the achievement: bed_5 (Sleepy Guy)
+[09:37:58] [Server thread/INFO]: [InfoBoardReborn] Checking for updates...
+[09:37:58] [Server thread/INFO]: [InfoBoardReborn] You are running the most recent version!
+[09:37:59] [Craft Scheduler Thread - 1049/INFO]: [QuickShop] A new version of QuickShop has been released!
+[09:37:59] [Craft Scheduler Thread - 1049/INFO]: [QuickShop] Update here: https://www.spigotmc.org/resources/62575/
+[09:57:01] [Server thread/INFO]: mcsandy lost connection: Timed out
+[09:57:01] [Server thread/INFO]: mcsandy 离开了幻想乡!
+[09:57:01] [Server thread/WARN]: [Essentials] Task #8958 for Essentials v2.17.0.5 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:142) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:113) ~[?:?]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.14.4.jar:git-Paper-135]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:452) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1144) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:420) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:1076) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:920) ~[patched_1.14.4.jar:git-Paper-135]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+[09:57:56] [User Authenticator #9/INFO]: UUID of player mcsandy is 81928e69-e362-3a96-9670-07b36403456a
+[09:57:56] [Server thread/INFO]: mcsandy[/124.160.215.234:33968] logged in with entity id 3012 at ([world]-359.59267377122575, 64.0, 5.406177682707843)
+[09:57:56] [Server thread/WARN]: [Essentials] Task #9071 for Essentials v2.17.0.5 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:146) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:113) ~[?:?]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.14.4.jar:git-Paper-135]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:452) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1144) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:420) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:1076) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:920) ~[patched_1.14.4.jar:git-Paper-135]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+[09:57:56] [Server thread/INFO]: 欢迎 mcsandy 来到幻想乡!
+[09:58:26] [Server thread/INFO]: mcsandy lost connection: Timed out
+[09:58:26] [Server thread/INFO]: mcsandy 离开了幻想乡!
+[09:58:26] [Server thread/WARN]: [Essentials] Task #9178 for Essentials v2.17.0.5 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:142) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:113) ~[?:?]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.14.4.jar:git-Paper-135]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:452) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1144) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:420) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:1076) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:920) ~[patched_1.14.4.jar:git-Paper-135]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+[09:59:18] [User Authenticator #10/INFO]: UUID of player mcsandy is 81928e69-e362-3a96-9670-07b36403456a
+[09:59:19] [Server thread/INFO]: mcsandy[/124.160.215.234:33969] logged in with entity id 3050 at ([world]-359.59267377122575, 64.0, 5.406177682707843)
+[09:59:19] [Server thread/WARN]: [Essentials] Task #9285 for Essentials v2.17.0.5 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:146) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:113) ~[?:?]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.14.4.jar:git-Paper-135]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:452) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1144) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:420) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:1076) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:920) ~[patched_1.14.4.jar:git-Paper-135]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+[09:59:19] [Server thread/WARN]: [Essentials] Permissions lag notice with (GenericVaultHandler). Response took 29.915233ms. Summary: Getting prefix for mcsandy
+[09:59:19] [Server thread/INFO]: 欢迎 mcsandy 来到幻想乡!
+[09:59:51] [Craft Scheduler Thread - 1102/INFO]: [AuthMe] The user mcsandy has 2 accounts:
+[09:59:51] [Craft Scheduler Thread - 1102/INFO]: [AuthMe] mcsandy, mcsandy01.
+[09:59:51] [Craft Scheduler Thread - 1102/INFO]: [AuthMe] mcsandy logged in!
+[10:07:26] [Server thread/INFO]: mcsandy lost connection: Timed out
+[10:07:26] [Server thread/INFO]: mcsandy 离开了幻想乡!
+[10:07:26] [Server thread/WARN]: [Essentials] Task #10198 for Essentials v2.17.0.5 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:142) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:113) ~[?:?]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.14.4.jar:git-Paper-135]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:452) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1144) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:420) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:1076) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:920) ~[patched_1.14.4.jar:git-Paper-135]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+[10:07:33] [User Authenticator #11/INFO]: UUID of player mcsandy is 81928e69-e362-3a96-9670-07b36403456a
+[10:07:34] [Server thread/INFO]: mcsandy[/124.160.215.234:33971] logged in with entity id 3177 at ([world]-356.82726995355716, 64.0, -11.07499998807907)
+[10:07:34] [Server thread/WARN]: [Essentials] Task #10315 for Essentials v2.17.0.5 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:146) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:113) ~[?:?]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.14.4.jar:git-Paper-135]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:452) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1144) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:420) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:1076) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:920) ~[patched_1.14.4.jar:git-Paper-135]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+[10:07:34] [Server thread/INFO]: 欢迎 mcsandy 来到幻想乡!
+[10:08:03] [Server thread/INFO]: mcsandy lost connection: Timed out
+[10:08:03] [Server thread/INFO]: mcsandy 离开了幻想乡!
+[10:08:03] [Server thread/WARN]: [Essentials] Task #10431 for Essentials v2.17.0.5 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:142) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:113) ~[?:?]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.14.4.jar:git-Paper-135]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:452) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1144) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:420) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:1076) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:920) ~[patched_1.14.4.jar:git-Paper-135]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+[10:08:12] [User Authenticator #11/INFO]: UUID of player mcsandy is 81928e69-e362-3a96-9670-07b36403456a
+[10:08:12] [Server thread/INFO]: mcsandy[/124.160.215.234:33972] logged in with entity id 3219 at ([world]-356.82726995355716, 64.0, -11.07499998807907)
+[10:08:12] [Server thread/WARN]: [Essentials] Task #10548 for Essentials v2.17.0.5 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:146) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:113) ~[?:?]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.14.4.jar:git-Paper-135]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:452) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1144) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:420) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:1076) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:920) ~[patched_1.14.4.jar:git-Paper-135]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]
+[10:08:12] [Server thread/INFO]: 欢迎 mcsandy 来到幻想乡!
+[10:08:42] [Server thread/INFO]: mcsandy lost connection: Timed out
+[10:08:42] [Server thread/INFO]: mcsandy 离开了幻想乡!
+[10:08:42] [Server thread/WARN]: [Essentials] Task #10662 for Essentials v2.17.0.5 generated an exception
+java.lang.NullPointerException: null
+	at com.earth2me.essentials.xmpp.XMPPManager.updatePresence(XMPPManager.java:142) ~[?:?]
+	at com.earth2me.essentials.xmpp.EssentialsXMPP.updatePresence(EssentialsXMPP.java:113) ~[?:?]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftTask.run(CraftTask.java:84) ~[patched_1.14.4.jar:git-Paper-135]
+	at org.bukkit.craftbukkit.v1_14_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:452) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.b(MinecraftServer.java:1144) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:420) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:1076) ~[patched_1.14.4.jar:git-Paper-135]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:920) ~[patched_1.14.4.jar:git-Paper-135]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_232]

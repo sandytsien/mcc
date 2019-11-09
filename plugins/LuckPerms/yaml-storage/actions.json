@@ -1,0 +1,268 @@
+[
+  {
+    "actor": "0f3041c9-ee4e-33d7-8eb1-23ce36460faa",
+    "actorName": "HTL9257",
+    "type": "GROUP",
+    "actedName": "default",
+    "action": "permission set essentials.build true"
+  },
+  {
+    "actor": "0f3041c9-ee4e-33d7-8eb1-23ce36460faa",
+    "actorName": "HTL9257",
+    "type": "GROUP",
+    "actedName": "default",
+    "action": "permission set essentials.balancetop true"
+  },
+  {
+    "actor": "0f3041c9-ee4e-33d7-8eb1-23ce36460faa",
+    "actorName": "HTL9257",
+    "type": "GROUP",
+    "actedName": "default",
+    "action": "permission set essentials.pay true"
+  },
+  {
+    "actor": "0f3041c9-ee4e-33d7-8eb1-23ce36460faa",
+    "actorName": "HTL9257",
+    "type": "GROUP",
+    "actedName": "default",
+    "action": "permission set essentials.afk true"
+  },
+  {
+    "actor": "0f3041c9-ee4e-33d7-8eb1-23ce36460faa",
+    "actorName": "HTL9257",
+    "type": "GROUP",
+    "actedName": "default",
+    "action": "permission set essentials.list true"
+  },
+  {
+    "actor": "0f3041c9-ee4e-33d7-8eb1-23ce36460faa",
+    "actorName": "HTL9257",
+    "type": "GROUP",
+    "actedName": "default",
+    "action": "permission set essentials.smg true"
+  },
+  {
+    "actor": "0f3041c9-ee4e-33d7-8eb1-23ce36460faa",
+    "actorName": "HTL9257",
+    "type": "GROUP",
+    "actedName": "default",
+    "action": "permission set essentials.spawn true server\u003dt"
+  },
+  {
+    "actor": "0f3041c9-ee4e-33d7-8eb1-23ce36460faa",
+    "actorName": "HTL9257",
+    "type": "GROUP",
+    "actedName": "default",
+    "action": "permission set essentials.spawn true"
+  },
+  {
+    "actor": "0f3041c9-ee4e-33d7-8eb1-23ce36460faa",
+    "actorName": "HTL9257",
+    "type": "GROUP",
+    "actedName": "default",
+    "action": "permission set essentials.back true"
+  },
+  {
+    "actor": "0f3041c9-ee4e-33d7-8eb1-23ce36460faa",
+    "actorName": "HTL9257",
+    "type": "GROUP",
+    "actedName": "default",
+    "action": "permission set essentials.delhome true"
+  },
+  {
+    "actor": "0f3041c9-ee4e-33d7-8eb1-23ce36460faa",
+    "actorName": "HTL9257",
+    "type": "GROUP",
+    "actedName": "default",
+    "action": "permission set essentials.home true"
+  },
+  {
+    "actor": "0f3041c9-ee4e-33d7-8eb1-23ce36460faa",
+    "actorName": "HTL9257",
+    "type": "GROUP",
+    "actedName": "default",
+    "action": "permission set icepvp.toggle true"
+  },
+  {
+    "actor": "0f3041c9-ee4e-33d7-8eb1-23ce36460faa",
+    "actorName": "HTL9257",
+    "type": "GROUP",
+    "actedName": "default",
+    "action": "permission set crazyauctions.access true"
+  },
+  {
+    "actor": "0f3041c9-ee4e-33d7-8eb1-23ce36460faa",
+    "actorName": "HTL9257",
+    "type": "GROUP",
+    "actedName": "default",
+    "action": "permission set crazyauctions.sell true"
+  },
+  {
+    "actor": "0f3041c9-ee4e-33d7-8eb1-23ce36460faa",
+    "actorName": "HTL9257",
+    "type": "GROUP",
+    "actedName": "default",
+    "action": "permission set crazyauctions.sell.10 true"
+  },
+  {
+    "actor": "0f3041c9-ee4e-33d7-8eb1-23ce36460faa",
+    "actorName": "HTL9257",
+    "type": "GROUP",
+    "actedName": "default",
+    "action": "permission set crazyauctions.bid true"
+  },
+  {
+    "actor": "0f3041c9-ee4e-33d7-8eb1-23ce36460faa",
+    "actorName": "HTL9257",
+    "type": "GROUP",
+    "actedName": "default",
+    "action": "permission set crazyauctions.bid.10 true"
+  },
+  {
+    "actor": "0f3041c9-ee4e-33d7-8eb1-23ce36460faa",
+    "actorName": "HTL9257",
+    "type": "GROUP",
+    "actedName": "default",
+    "action": "permission set essentials.tpa true"
+  },
+  {
+    "actor": "0f3041c9-ee4e-33d7-8eb1-23ce36460faa",
+    "actorName": "HTL9257",
+    "type": "GROUP",
+    "actedName": "default",
+    "action": "permission set essentials.tpaccept true"
+  },
+  {
+    "actor": "0f3041c9-ee4e-33d7-8eb1-23ce36460faa",
+    "actorName": "HTL9257",
+    "type": "GROUP",
+    "actedName": "default",
+    "action": "permission set essentials.tpahere true"
+  },
+  {
+    "actor": "0f3041c9-ee4e-33d7-8eb1-23ce36460faa",
+    "actorName": "HTL9257",
+    "type": "GROUP",
+    "actedName": "default",
+    "action": "permission set essentials.worlds. true"
+  },
+  {
+    "actor": "0f3041c9-ee4e-33d7-8eb1-23ce36460faa",
+    "actorName": "HTL9257",
+    "type": "GROUP",
+    "actedName": "default",
+    "action": "permission set essentials.warp true"
+  },
+  {
+    "actor": "0f3041c9-ee4e-33d7-8eb1-23ce36460faa",
+    "actorName": "HTL9257",
+    "type": "GROUP",
+    "actedName": "default",
+    "action": "permission set pw.default true"
+  },
+  {
+    "actor": "0f3041c9-ee4e-33d7-8eb1-23ce36460faa",
+    "actorName": "HTL9257",
+    "type": "GROUP",
+    "actedName": "default",
+    "action": "permission set crazycrates.access true"
+  },
+  {
+    "actor": "0f3041c9-ee4e-33d7-8eb1-23ce36460faa",
+    "actorName": "HTL9257",
+    "type": "GROUP",
+    "actedName": "default",
+    "action": "permission set crazycrates.menu true"
+  },
+  {
+    "actor": "0f3041c9-ee4e-33d7-8eb1-23ce36460faa",
+    "actorName": "HTL9257",
+    "type": "GROUP",
+    "actedName": "default",
+    "action": "permission set chestcommands.command.open true"
+  },
+  {
+    "actor": "0f3041c9-ee4e-33d7-8eb1-23ce36460faa",
+    "actorName": "HTL9257",
+    "type": "GROUP",
+    "actedName": "default",
+    "action": "permission set chestcommands.open true"
+  },
+  {
+    "actor": "0f3041c9-ee4e-33d7-8eb1-23ce36460faa",
+    "actorName": "HTL9257",
+    "type": "GROUP",
+    "actedName": "builder",
+    "action": "permission set chestcommands.open true"
+  },
+  {
+    "actor": "0f3041c9-ee4e-33d7-8eb1-23ce36460faa",
+    "actorName": "HTL9257",
+    "type": "GROUP",
+    "actedName": "default",
+    "action": "permission set chestcommands.open.example.yml true"
+  },
+  {
+    "actor": "0f3041c9-ee4e-33d7-8eb1-23ce36460faa",
+    "actorName": "HTL9257",
+    "type": "GROUP",
+    "actedName": "default",
+    "action": "permission set chestcommands.open.* true"
+  },
+  {
+    "actor": "0f3041c9-ee4e-33d7-8eb1-23ce36460faa",
+    "actorName": "HTL9257",
+    "type": "GROUP",
+    "actedName": "default",
+    "action": "permission set sgin.use true"
+  },
+  {
+    "actor": "0f3041c9-ee4e-33d7-8eb1-23ce36460faa",
+    "actorName": "HTL9257",
+    "type": "GROUP",
+    "actedName": "builder",
+    "action": "permission set sgin.use true"
+  },
+  {
+    "actor": "0f3041c9-ee4e-33d7-8eb1-23ce36460faa",
+    "actorName": "HTL9257",
+    "type": "GROUP",
+    "actedName": "default",
+    "action": "permission set sign.use true"
+  },
+  {
+    "actor": "0f3041c9-ee4e-33d7-8eb1-23ce36460faa",
+    "actorName": "HTL9257",
+    "type": "GROUP",
+    "actedName": "default",
+    "action": "permission set deatheffects.gui true"
+  },
+  {
+    "actor": "0f3041c9-ee4e-33d7-8eb1-23ce36460faa",
+    "actorName": "HTL9257",
+    "type": "GROUP",
+    "actedName": "default",
+    "action": "permission set deatheffects.gui2 true"
+  },
+  {
+    "actor": "0f3041c9-ee4e-33d7-8eb1-23ce36460faa",
+    "actorName": "HTL9257",
+    "type": "GROUP",
+    "actedName": "default",
+    "action": "permission set deatheffects.clear true"
+  },
+  {
+    "actor": "0f3041c9-ee4e-33d7-8eb1-23ce36460faa",
+    "actorName": "HTL9257",
+    "type": "GROUP",
+    "actedName": "default",
+    "action": "permission set deatheffects. true"
+  },
+  {
+    "actor": "0f3041c9-ee4e-33d7-8eb1-23ce36460faa",
+    "actorName": "HTL9257",
+    "type": "GROUP",
+    "actedName": "default",
+    "action": "permission set deatheffects.holiday true"
+  }
+]

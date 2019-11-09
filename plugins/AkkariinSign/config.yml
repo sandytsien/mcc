@@ -1,0 +1,58 @@
+# Akkariin Sign Configuration
+# 版本標識，請勿修改此處
+version: 1.0
+# 玩家簽到后執行的命令
+# 變量說明：
+# %player% 玩家名稱
+# %world% 玩家所在世界
+# %signday% 玩家簽到天數
+# %year% 系統日期：年
+# %month% 系統日期：月
+# %day% 系統日期：日
+# 支持多條命令，用英文分號 ; 隔開
+commands:
+    # 第一次簽到執行的命令和提示的消息
+    first:
+        command: "money give %player% 100;give %player% minecraft:iron_ingot 16"
+        message: "Congratulations on your first sign win of 100 dollars and 1 diamond."
+    day:
+        # 這裡的 1 是永遠不會執行的...
+        1:
+            command: "money give %player% 10"
+            message: "Sign success, you get 10 dollars"
+        # 簽到兩天執行的命令，以此類推
+        2:
+            command: "money give %player% 100;give %player% minecraft:diamond 3 "
+            message: "Sign success, you get 100 dollars"
+        3:
+            command: "money give %player% 200;give %player% minecraft:diamond 4"
+            message: "Sign success, you get 200 dollars"
+        4:
+            command: "money give %player% 300;give %player% minecraft:diamond_sword"
+            message: "Sign success, you get 300 dollars"
+        5:
+            command: "money give %player% 400;give %player% minecraft:book 64"
+            message: "Sign success, you get 400 dollars"
+        6:
+            command: "money give %player% 500"
+            message: "Sign success, you get 500 dollars"
+        7:
+            command: "money give %player% 600"
+            message: "Sign success, you get 600 dollars"
+        # 超出設定的簽到天數以後執行的命令
+        default:
+            command: "money give %player% 500"
+            message: "Sign success, you get 500 dollars"
+    # 總共多少天，需要和上面的配置設置相同
+    total: 30
+    
+# 語言配置文件
+lang:
+    # 消息前綴
+    prefix: "&c&l[&f&lAkkariin &b&lSign&c&l] &r"
+    # 非遊戲內執行提示
+    inGame: "You can't run this command outside the game"
+    # 無權限提示
+    noPermission: "You don't have permission: sign.use"
+    # 已經簽到過了的提示
+    already: "你已经签过到了."

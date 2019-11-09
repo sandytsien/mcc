@@ -1,0 +1,11 @@
+name: moderator
+parents:
+- builder
+- g-bukkit_moderator
+- g-essentials_moderator
+- g-groupmanager_moderator
+- g-towny_moderator
+- g-vanish_moderator
+prefixes:
+- '&5':
+    priority: 50

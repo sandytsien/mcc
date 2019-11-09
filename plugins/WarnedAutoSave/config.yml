@@ -1,0 +1,3 @@
+interval: 12000 #idealy 10 min
+notify: 600 #idealy 30 sec
+text: '&c准备进行自动保存，服务器可能停止响应'

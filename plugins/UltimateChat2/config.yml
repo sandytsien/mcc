@@ -1,0 +1,18 @@
+# UltimateChat By Lertu and Poku The Amazings....
+# Version v2
+# 
+# Chat format:
+# PlaceHolders! THERE IS ALSO PLACEHOLDERAPI SUPPORT!
+# {player} - for playername
+# {displayame} - for displayname {if using nicknames from other plugins}
+# {prefix} - for prefix
+# {suffix} - for suffix
+# {msg} - for message
+# {faction} - for player faction {Requires Factions}
+# {legacyfaction} - for player faction {Legacy factions}
+# & - for color codes such as &a = green
+chatFormat: '{prefix}{player}{suffix}&7: &f{msg}'
+PlaceholderAPI: false
+BlockWords: false
+BlockedWords:
+- BadWord

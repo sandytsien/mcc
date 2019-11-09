@@ -1,0 +1,134 @@
+# CommandDelay config.yml
+# 搬运工——酷车手BB弹（退休了，有事别找我= =）
+#=====-----=====-----=====-----[      类别      ]-----=====-----=====-----=====#
+# Each category must have a unique identifier. For example: essentials or factions.
+# Each category has separate delay, list of blacklisted worlds, cost, and commands.
+# 如果 blacklist:false ，则worlds:后面代表的是白名单.（白名单就是只有这个世界生效）
+#
+# For example, the Essentials commands below have 5 second delay and cost of 0,
+# except in the listed worlds.
+#
+# To avoid exploits, list the commands with and without plugin prefaces.
+
+category:
+# 例如:
+#   delay: 5  //延时
+#   cost: 500  //花费
+#   commands:  //指令
+#   - "spawn"
+  free:
+    delay: 3600
+    cost: 0
+    commands:
+    - "kit free"
+  essentials:
+    delay: 5
+    cost: 0
+    blacklist: true
+    worlds:
+    - "233"
+    commands:
+    - "back"
+    - "home"
+    - "jump"
+    - "spawn"
+    - "top"
+    - "tpa"
+    - "tpaall"
+    - "tphere"
+    - "tpo"
+    - "tpohere"
+    - "tppos"
+    - "warp"
+    - "world"
+    - "essentials:back"
+    - "essentials:home"
+    - "essentials:jump"
+    - "essentials:spawn"
+    - "essentials:top"
+    - "essentials:tpa"
+    - "essentials:tpaall"
+    - "essentials:tphere"
+    - "essentials:tpo"
+    - "essentials:tpohere"
+    - "essentials:tppos"
+    - "essentials:warp"
+    - "essentials:world"
+
+#=====-----=====-----=====-----[    取消指令    ]-----=====-----=====-----=====#
+# 在等待期间如果玩家执行了以下操作，就会取消执行
+# listed here, if the delay_cancel_action is set to true.
+delay_cancel_interact: false
+delay_cancel_move: true
+delay_cancel_jump: false
+delay_cancel_damage: true
+delay_cancel_damaged: true
+delay_cancel_break: true
+delay_cancel_place: true
+delay_cancel_chat: false
+delay_cancel_command: true
+
+#=====-----=====-----=====-----[  TitleBar 消息   ]-----=====-----=====-----=====#
+message_titlebar_enabled: true
+message_titlebar_delaying: "{themecolor}准备中..."
+message_titlebar_delaying_subtitle: "&e请站在那等待 &6{left} &e秒"
+message_titlebar_delaying_canceled: "{themecolor}&l执行指令 /{cmd} 终止"
+message_titlebar_delaying_canceled_subtitle: "{flatcolor}请不要做任何事"
+message_titlebar_dispatched: "{themecolor}&l执行指令 /{cmd} 成功"
+message_titlebar_dispatched_subtitle: "&6玩的开心 &f{player}"
+
+#=====-----=====-----=====-----[  ActionBar 消息  ]-----=====-----=====-----=====#
+message_actionbar_enabled: true
+message_actionbar_cooldown: "{themecolor}{left} 秒后开始"
+message_actionbar_dispatched: "&l祝您旅途愉快~"
+message_actionbar_reverse: true
+message_actionbar_symbol: "█"
+#The style of bar Fill
+
+#=====-----=====-----=====-----[     聊天消息     ]-----=====-----=====-----=====#
+message_chat_enabled: false
+message_chat_delaying: "{flatcolor}Preparing..."
+message_chat_delaying_subtitle: "&ePlease Stay For &6{left} &eSecond"
+message_chat_delaying_canceled: "{themecolor}&lCommand /{cmd} Aborted"
+message_chat_dispatched: "{themecolor}&lCommand /{cmd} Success"
+
+#=====-----=====-----=====-----[       信息       ]-----=====-----=====-----=====#
+message_prefix: "&8[&d延时系统&8]"
+message_command_nomoney: "&c你不够钱执行这条指令 = ="
+message_command_reload: "&6配置重载成功"
+message_command_nopermission: "你没有 &8[&f{perm}&8] &c权限 !"
+
+#=====-----=====-----=====-----[     占位符     ]-----=====-----=====-----=====#
+# {themecolor} would replaced with Bright random color
+# {flatcolor} would replaced with Darker random color
+# {player} would replaced with Player displayname
+# {left} would replaced by remaining second to wait
+# {x} would replaced by player current X coord location
+# {y} would replaced by player current Y coord location
+# {z} would replaced by player current Z coord location
+# {cmd} would replaced by player current delayed command
+
+#=====-----=====-----=====-----[     颜色配方    ]-----=====-----=====-----=====#
+# 自定义占位符的颜色.如果有多种颜色，则每秒换一个
+themecolor:
+- "&a"
+- "&b"
+- "&c"
+- "&e"
+
+flatcolor:
+- "&f"
+
+#=====-----=====-----=====-----[     其他功能    ]-----=====-----=====-----=====#
+use_hologram: true
+use_particle: true
+
+#=====-----=====-----=====-----[     声音设置     ]-----=====-----=====-----=====#
+sound_error: "ENTITY_BLAZE_DEATH"
+sound_tick: "UI_BUTTON_CLICK"
+sound_success: "ENTITY_ENDERMEN_TELEPORT"
+
+#=====-----=====-----=====-----[     粒子设置     ]-----=====-----=====-----=====#
+particle_main: "SNOW_SHOVEL"
+particle_second: "FIREWORKS_SPARK"
+

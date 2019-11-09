@@ -1,0 +1,9 @@
+name: g-vanish_moderator
+permissions:
+- vanish.hooks.dynmap.alwayshidden
+- vanish.hooks.essentials.hide
+- vanish.nofollow
+- vanish.nopickup
+- vanish.preventincomingdamage
+- vanish.smokin
+- vanish.vanish

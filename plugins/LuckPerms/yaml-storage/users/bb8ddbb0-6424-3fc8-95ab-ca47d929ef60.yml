@@ -1,0 +1,7 @@
+uuid: bb8ddbb0-6424-3fc8-95ab-ca47d929ef60
+name: 'null'
+primary-group: default
+permissions:
+- groupmanager.noofflineperms
+parents:
+- default

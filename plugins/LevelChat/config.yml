@@ -1,0 +1,24 @@
+title:
+  Enable: false
+  Title: '&aLevel Up!'
+  SubTitle: '&anew level:%level%,old level: %oldlevel%'
+  FadeIn: 1
+  Time: 3
+  FadeOut: 1
+message:
+  Enable: true
+  Msg: '&c==============/n&aLevel Up!/n&aold level:%oldlevel%/n&anew level:%level%/n&c=============='
+limit:
+  chat: false
+  allow_chat_level: 30
+  deny_chat_msg: 'You cant speak!'
+chat:
+  enable: true
+  format: '&7[&eLv&c.&a{level}&7]'
+levelcustom:
+  #'10': 
+   # Cmd:
+    #  - 'say &a%player% Level Up!'
+   # Msg: '&aLevel up!'
+disableworld:
+  - 'disable_world'

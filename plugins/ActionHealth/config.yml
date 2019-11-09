@@ -1,0 +1,100 @@
+# The message the player is sent.血量显示格式
+# {name} shows the name of the mob or player.变量：名称 显示生物或玩家的名字
+# {health} shows current health of the mob or player.变量：血量 显示生物或玩家当前的血量 
+# {maxhealth} shows the max health of the mob or player.变量：最大血量 显示生物或玩家的最大血量
+# {usestyle} will use the defined chars.变量：显示格式
+# {displayname} will use player/mob custom name.变量：显示名称 显示玩家或生物的自定义名称
+# Has support for PlaceholderAPI and MVdWPlaceholderAPI.
+Health Message: '&6&l{name}: &a&l{health} / {maxhealth}'
+
+# If set empty it will default to the one above.
+# This message is sent to all non player entities.
+# All the placeholders from above work here also.
+Non Player Message: ''
+
+# The message the player is sent to the player if they have actionhealth disabled.
+# {name} shows the name of the player.
+Toggle Message: ''
+
+# Message sent to player when player enables actionhealth
+# {name} shows the name of the player.插件启用提示信息
+On Enable: '&7ActionHealth &a&l已启用&7.'
+
+# Message sent to player when player disables actionhealth
+# {name} shows the name of the player.插件禁用提示信息
+On Disable: '&7ActionHealth &c&l已禁用&7.'
+
+# Strip Name.
+Strip Name: true
+
+# If enabled players with the permission 'ActionHealth.Health' will only see the action health message.决定是否只有拥有“ActionHealth.Health”权限的玩家才能使用本插件 默认false
+Use Permissions: false
+
+# If set to false player will not see health messages from mobs.是否显示生物的血量 默认true
+Show Mob: true
+
+# If set to false player will not see health messages from other players.是否显示玩家的血量 默认true
+
+Show Player: true
+# If set to true player will get the message in a delay to get 100% accurate health. Useful for plugins that add damage by reading item lore.
+# This also uses more resources :( 开了会吃资源。建议不开。反正一般服务器用处不大。（偷懒三连）
+Delay Message: false
+
+# Style Health 显示形式
+#生命值显示为❤
+#Full Health Icon: "&c\u2764"
+#Half Health Icon: "&4\u2764"
+#Empty Health Icon: "&7\u2764"
+#生命值显示为方块
+#Full Health Icon: "&c&l\u2588"
+#Half Health Icon: "&c\u258c"
+#Empty Health Icon: ""
+#生命值显示为线状
+#Health Message: '{name} - &c[{usestyle}&c]'
+#Full Health Icon: "&c\u007C"
+#Half Health Icon: "&4\u007C"
+#Empty Health Icon: "&7\u007C"
+#显示为 当前生命值/最大生命值
+#Health Message: '&6&l{name}: &a&l{health} / {maxhealth}'
+Full Health Icon: "&4\u2764"
+Half Health Icon: "&c\u2764"
+Empty Health Icon: "&7\u2764"
+
+# Set names. Case sensitive!
+Name Change: true
+Name:
+- Cat = 猫猫这么可爱怎么能打猫猫！
+
+# ActionHealth will be disabled for any world names added below. Case sensitive!在以下世界/大区块中禁用
+Disabled worlds:
+
+
+Disabled regions:
+
+
+# Disable ActionHealth in regions where PvP is denied.在禁止PVP的区域禁用该插件 默认true
+Region PvP: false
+
+# Limits the health style to a certain amount of symbols.前三种生命显示格式的字符（❤、方块、线）上限 默认10
+Limit Health: 50
+
+# Saves players /actionhealth toggle state. 是否记忆玩家的开关行为（设为true之后玩家如果关闭插件显示，就一直不对该玩家显示，无论玩家是否重新进入服务器。直至玩家手动打开。）默认false
+Remember Toggle: true
+
+# Blacklist by entity name or entity display name.黑名单 不会显示黑名单中实体的血量
+Blacklist:
+- 'CCPD Officer'
+
+# Show the health of the entity that the player is looking at.玩家看向实体时显示该实体的血量（默认是攻击时显示）
+Show On Look: true
+# 最大距离
+Look Distance: 25
+
+# Check if player can see entity before sending health.
+Can See: true
+
+# Hide action health if entity has invisible potion on.是否 隐藏 隐身实体的血量 默认true（默认不显示！）
+Invisible Potion: false
+
+# Hide if entity is in spectator mode.
+Spectator Mode: true

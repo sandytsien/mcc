@@ -1,0 +1,14 @@
+name: builder
+permissions:
+- stp.*
+- chestcommands.open
+- essential.tp
+- essentials.nick:
+    value: false
+- sgin.use
+parents:
+- g-essentials_builder
+- g-towny_builder
+prefixes:
+- '&2':
+    priority: 50

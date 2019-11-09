@@ -1,0 +1,7 @@
+format: '§7{enchant} {rome} -> {arab}'
+#{enchant} 代表附魔的中文名称
+#{enchant} stands for the name of the enchantment
+#{rome} 代表附魔等级的罗马数字
+#{rome} stands for the rome number of enchantment
+#{arab} 代表抚摸等级的阿拉伯数字
+#{arab} stands for the arab number of enchantment

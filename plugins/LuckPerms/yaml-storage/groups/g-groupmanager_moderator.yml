@@ -1,0 +1,10 @@
+name: g-groupmanager_moderator
+permissions:
+- groupmanager.listgroups
+- groupmanager.mandemote
+- groupmanager.manpromote
+- groupmanager.manselect
+- groupmanager.manuadd
+- groupmanager.manudel
+- groupmanager.manwhois
+- groupmanager.notify.other

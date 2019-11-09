@@ -1,0 +1,3 @@
+name: g-groupmanager_default
+permissions:
+- groupmanager.notify.self

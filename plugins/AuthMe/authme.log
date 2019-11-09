@@ -1,0 +1,51 @@
+[11-09 00:49:26]: [INFO] Created column 'regdate' and set the current timestamp, 1573231766687, to all 0 rows
+[11-09 00:49:26]: [INFO] SQLite Setup finished
+[11-09 00:49:26]: [INFO] Hooked into LuckPerms!
+[11-09 00:49:26]: [INFO] Hooked successfully into Essentials
+[11-09 00:49:26]: [INFO] Hooked successfully into Multiverse-Core
+[11-09 00:49:26]: [INFO] Essentials spawn file not found: '/home/mc/mc-14/1.14.X/14/plugins/Essentials/spawn.yml'
+[11-09 00:49:27]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.2247 correctly enabled!
+[11-09 00:49:28]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[11-09 00:49:29]: [INFO] Successfully downloaded new GEO IP database to plugins/AuthMe/GeoLite2-Country.mmdb
+[11-09 00:49:29]: [INFO] [LICENSE] This product includes GeoLite2 data created by MaxMind, available at https://www.maxmind.com
+[11-09 00:50:56]: [INFO] AuthMe 5.6.0-SNAPSHOT-b2247 disabled!
+[11-09 01:06:00]: [INFO] SQLite Setup finished
+[11-09 01:06:00]: [INFO] Hooked into LuckPerms!
+[11-09 01:06:00]: [INFO] [LICENSE] This product includes GeoLite2 data created by MaxMind, available at https://www.maxmind.com
+[11-09 01:06:00]: [INFO] Hooked successfully into Essentials
+[11-09 01:06:00]: [INFO] Hooked successfully into Multiverse-Core
+[11-09 01:06:00]: [INFO] Essentials spawn file not found: '/home/mc/mc-14/1.14.X/14/plugins/Essentials/spawn.yml'
+[11-09 01:06:00]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.2247 correctly enabled!
+[11-09 01:07:47]: [FINE] mcsandy registered 124.160.215.234
+[11-09 01:07:47]: [FINE] mcsandy logged in!
+[11-09 01:14:49]: [INFO] AuthMe 5.6.0-SNAPSHOT-b2247 disabled!
+[11-09 01:17:56]: [INFO] SQLite Setup finished
+[11-09 01:17:56]: [INFO] Hooked into LuckPerms!
+[11-09 01:17:56]: [INFO] [LICENSE] This product includes GeoLite2 data created by MaxMind, available at https://www.maxmind.com
+[11-09 01:17:56]: [INFO] Hooked successfully into Essentials
+[11-09 01:17:56]: [INFO] Hooked successfully into Multiverse-Core
+[11-09 01:17:56]: [INFO] Essentials spawn file not found: '/home/mc/mc-14/1.14.X/14/plugins/Essentials/spawn.yml'
+[11-09 01:17:57]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.2247 correctly enabled!
+[11-09 01:23:53]: [FINE] mcsandy logged in!
+[11-09 01:30:45]: [FINE] mcsandy logged in!
+[11-09 01:36:31]: [INFO] AuthMe 5.6.0-SNAPSHOT-b2247 disabled!
+[11-09 01:37:56]: [INFO] SQLite Setup finished
+[11-09 01:37:56]: [INFO] Hooked into LuckPerms!
+[11-09 01:37:56]: [INFO] [LICENSE] This product includes GeoLite2 data created by MaxMind, available at https://www.maxmind.com
+[11-09 01:37:56]: [INFO] Hooked successfully into Essentials
+[11-09 01:37:56]: [INFO] Hooked successfully into Multiverse-Core
+[11-09 01:37:56]: [INFO] Essentials spawn file not found: '/home/mc/mc-14/1.14.X/14/plugins/Essentials/spawn.yml'
+[11-09 01:37:56]: [INFO] AuthMe 5.6.0-SNAPSHOT build n.2247 correctly enabled!
+[11-09 01:39:25]: [FINE] mcsandy logged in!
+[11-09 01:45:59]: [FINE] mcsandy logged in!
+[11-09 02:50:35]: [FINE] mcsandy logged in!
+[11-09 03:01:43]: [FINE] mcsandy01 registered 124.160.215.234
+[11-09 03:01:43]: [FINE] The user mcsandy01 has 2 accounts:
+[11-09 03:01:43]: [FINE] §7§amcsandy§7, §amcsandy01§7.
+[11-09 03:01:43]: [FINE] mcsandy01 logged in!
+[11-09 09:03:01]: [FINE] The user mcsandy has 2 accounts:
+[11-09 09:03:01]: [FINE] §7§amcsandy§7, mcsandy01.
+[11-09 09:03:01]: [FINE] mcsandy logged in!
+[11-09 09:59:51]: [FINE] The user mcsandy has 2 accounts:
+[11-09 09:59:51]: [FINE] §7§amcsandy§7, mcsandy01.
+[11-09 09:59:51]: [FINE] mcsandy logged in!
